@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	<form method="POST" action="/add_tweet">
+		<div>
+            <label>Title</label>
+            <div>
+                <input type="title"  name="title" id="titleStr" required>
+            </div>
+        </div>
+
+        <!-- Password -->
+        <div>
+            <label>Text*</label>
+            <div class="input-group">
+                <input type="text"  name="text" maxlength="280">
+            </div>
+        </div>
+        <a href="/"><button>submit</button></a>
+	</form>
+
+</body>
+</html>
